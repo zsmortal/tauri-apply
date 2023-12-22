@@ -22,7 +22,8 @@ export const useRouter = () => {
 
 /**
  * 获取 path
- * @param path
+ * @param key 路径
+ * @param keyword 关键字
  * @returns path
  */
 const getPath = (key: string, keyword: string) => {
@@ -32,7 +33,7 @@ const getPath = (key: string, keyword: string) => {
 
 /**
  * 获取 name
- * @param name
+ * @param path path
  * @returns name
  */
 const getName = (path: string) => {
