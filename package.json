@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "xxx",
+  "description": "Desktop template based on tauri",
   "author": "xxx",
   "license": "ISC",
   "repository": "https://github.com/zsmortal/tauri-apply.git",
