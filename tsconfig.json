@@ -3,11 +3,7 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -24,17 +20,10 @@
     /* Path */
     "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [
     {
       "path": "./tsconfig.node.json"
